@@ -2,37 +2,37 @@
 * mysql is not case sensitive 
 * USING UPPERCASE IS GOOD PRACTICE
 
-# to login to mysql
+### to login to mysql
 
 ~~~php
 mysql -uroot -p
 ~~~
 
-# to show all databases
+### to show all databases
 
 ~~~php
 show databases;
 ~~~
 
-# to create a database 
+### to create a database 
 
 ~~~php
-create database <databaseName>
+create database <databaseName>;
 ~~~
 
-# to use a database 
+### to use a database 
 
 ~~~php
-use <dbname>
+use <dbname>;
 ~~~
 
-# list all tables 
+### list all tables 
 
 ~~~php
 show tables;
 ~~~
 
-# to create a table 
+### to create a table 
 
 ~~~php
 create table <tablename> (
@@ -42,28 +42,35 @@ create table <tablename> (
 );
 ~~~
 
-# insert into database 
+### to know structure of table 
+
+~~~php
+describe <tableName>;
+~~~
+
+
+### insert into database 
 
 ~~~php
 insert into <tableName> (<column1>, <column2>) values('column1_value', 'column2_value'); 
 ~~~
 
-# retrieve/read data from database 
+### retrieve/read data from database 
 
 ~~~php
-select <column> from <tablename>
+select <column> from <tablename>;
 
-# for getting all results 
-select * from <tablename> 
+### for getting all results 
+select * from <tablename> ;
 ~~~
 
-# Update database value
+### Update database value
 
 ~~~php
-update <tableName> set <columnName>=<columnValue> where id=<somevalue>
+update <tableName> set <columnName>=<columnValue> where id=<somevalue>;
 ~~~
 
-# delete table row
+### delete table row
 
 ~~~php
 delete from <tableName> where <columnName>=<columnValue>;
