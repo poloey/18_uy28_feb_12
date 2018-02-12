@@ -1,4 +1,4 @@
-# mysql 101  
+# mysql 101  - Crud in mysql          
 * mysql is not case sensitive 
 * USING UPPERCASE IS GOOD PRACTICE
 
@@ -75,6 +75,8 @@ update <tableName> set <columnName>=<columnValue> where id=<somevalue>;
 ~~~php
 delete from <tableName> where <columnName>=<columnValue>;
 ~~~
+
+
 
 
 
